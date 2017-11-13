@@ -6,6 +6,7 @@ class StocksController < ApplicationController
 			# our database, then get it from the api
 			@stock ||= Stock.new_from_lookup(params[:stock])
 		end
+		puts "*** hoho ***"
 
 		if @stock
 			# render json: @stock

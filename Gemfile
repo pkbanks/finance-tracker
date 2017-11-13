@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+gem 'bootstrap-sass'
 gem 'stock_quote', '~> 1.2', '>= 1.2.3'
 gem 'httparty'
 
